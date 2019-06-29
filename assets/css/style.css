@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Antic+Didone&display=swap:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Antic Didone', sans-serif;
+}
+
+/* ---------------------------------------------------- Header */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: black;
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+/* ---------------------------------------------------- Footer */
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    min-height: 100px;
+    margin: 0;
+}
+
+.social {
+    font-family: "Antic Didone", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.social-links li {
+    padding: 0 5px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ee0946;
+}
+
+.footer-details {
+    padding: 20px;
+}
+
+/* ---------------------------------------------------- Home */
+
+.intro1 {
+    font-family: "Antic Didone", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #ee0946;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+.intro2 {
+    font-family: "Antic Didone", sans-serif;
+    text-align: center;
+    color: #ee0946;
+    padding-bottom: 30px;
+}
+
+.intro3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.intro-container {
+    height: 100vh;
+    min-height: 900px;
+    background-image: url('../images/arena-outside.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+
+    position: relative;
+}
+
+.intro2-container {
+    height: 100vh;
+    min-height: 900px;
+    
+}
+
+/* ---------------------------------------------------- About */
+
+.about-container {
+    height: 100vh;
+    min-height: 900px;
+    min-width: 50px;
+    background-image: url('../images/grasscutter.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+
+    position: relative;
+}
+
+.about1 {
+    font-family: "Antic Didone", sans-serif;
+    font-size:30px;
+    font-weight: 700;
+    text-align: center;
+    color: #ee0946;
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+
+.about-text {
+    font-family: "Antic Didone", sans-serif;
+    font-size:20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+/* ---------------------------------------------------- Media Queries */
+
+
+@media (min-width:650px) {
+    .about-text {
+        padding: 0px 50px;
+    }
+}
+
+@media (min-width:991px) {
+    .about-text {
+        padding: 0px 100px;
+    }
+}
+
+@media (min-width:1030px) {
+    .about-text {
+        padding: 0px 200px;
+    }
+}
