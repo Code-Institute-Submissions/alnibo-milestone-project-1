@@ -3,6 +3,7 @@
 body {
     font-family: 'Antic Didone', sans-serif;
     min-width: 300px;
+    padding-top: 50px;
 }
 
 /* ---------------------------------------------------- Header */
@@ -10,13 +11,17 @@ body {
 .navbar {
     margin-bottom: 0;
     width: 100%;
+    height: 50px;
     background-color: black;
     border: 0;
-    
 }
 
 .navbar .navbar-brand {
     font-weight: 700;
+}
+
+.navbar-brand img {
+    padding-right: 5px;
 }
 
 .navbar .navbar-toggler {
@@ -124,7 +129,7 @@ footer {
     font-weight: 700;
     text-align: center;
     color: #ee0946;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 60px;
 }
 
@@ -183,17 +188,20 @@ footer {
 
 /* ---------------------------------------------------- Team */
 
-.team-pic {
+.top-pic {
     width: 100%;
-    margin-top: 58px;
     margin-bottom: 20px;
 }
 
 .btn--team {
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 2px;
     margin-left: 4px;
+}
+
+.selecter-btn {
+    padding-left: 16px;
 }
 
 .field-position {
@@ -208,7 +216,7 @@ footer {
     position: relative;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 10px 0;
 }
 
 .shirt-number {
@@ -216,6 +224,7 @@ footer {
     top: 8px;
     left: 70px;
     color: black;
+    background-color: rgba(0,0,0,0.15);
     font-size: 20px;
     border: 0.125rem solid black;
     width: 34px;
@@ -258,7 +267,7 @@ footer {
 }
 
 .block-divider {
-    width: 400px;
+    width: 100%;
     height: 2px;
     border: 0;
     background-color: #ee0946;
@@ -270,11 +279,130 @@ footer {
     padding-bottom: 200px;
 }
 
+/* ---------------------------------------------------- Fixtures */
+
+.fixtures {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.next-match-container-mobile {
+    height: 150px;
+    background-color: #f4f4f4;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #c0c9d4;
+    text-align: center;
+}
+
+.next-match-container-desktop {
+    height: 150px;
+    max-width: 400px;
+    background-color: #f4f4f4;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #c0c9d4;
+    text-align: center;
+}
+
+.next-match-head {
+    color: #ee0946;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tournament {
+    font-weight: 700;
+}
+
+.next-match-score {
+    background-color: white;
+    height: 25px;
+    border-style: solid;
+    border-width: .3px;
+    border-radius: 5px;
+    border-color: #c0c9d4;
+    margin-top: 10px;
+}
+
+.bundesliga-table {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.table-entry {
+    padding-top: 10px !important;
+}
+
+.home-column {
+    text-align: center;
+}
+
+.away-column {
+    text-align: center;
+}
+
+.match-score-odd {
+    background-color: white;
+    height: 25px;
+    width: 35px;
+    border-style: solid;
+    border-width: .3px;
+    border-radius: 5px;
+    border-color: #c0c9d4;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.match-score-even {
+    background-color: white;
+    height: 25px;
+    width: 35px;
+    border-style: solid;
+    border-width: .3px;
+    border-radius: 5px;
+    border-color: #c0c9d4;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* ---------------------------------------------------- Table */
+
+.current-table {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.current-table h2 {
+    padding-bottom: 5px;
+}
+
+.bundesliga-table {
+    margin-top: 30px;
+}
+
 /* ---------------------------------------------------- Media Queries */
 
-@media (min-width:500px) {
+@media (max-width:553px) {
+    .box-desktop {
+        display: none;
+    }
+    .table-desktop {
+        display: none;
+    }
+}
+
+@media (min-width:554px) {
     .about-container {
         height: 850px;
+    }
+    .box-mobile {
+        display: none;
+    }
+    .table-mobile {
+        display: none;
     }
 }
 
