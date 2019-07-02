@@ -15,7 +15,7 @@
     <!---------------------------------------------------- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
             <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block" class="d-inline-block align-center">FC Bayern
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Logo_FC_Bayern_München_%282002–2017%29.svg/1024px-Logo_FC_Bayern_München_%282002–2017%29.svg.png" width="30" height="30" class="d-inline-block" class="d-inline-block align-center">FC Bayern
         </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,12 +33,12 @@
                         <a class="nav-link dropdown-toggle" href=#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                       <a class="dropdown-item" href="team.html">All</a>
-                        <a class="dropdown-item" href="#goalkeepers">Goalkeepers</a>
-                        <a class="dropdown-item" href="#defenders">Defenders</a>
-                        <a class="dropdown-item" href="#midfielders">Midfielders</a>
-                        <a class="dropdown-item" href="#forwards">Forwards</a>
-                        <a class="dropdown-item" href="#coaches">Coaches</a>
+                        <a class="dropdown-item" href="team.html">All</a>
+                        <a class="dropdown-item" href="team.html#goalkeepers">Goalkeepers</a>
+                        <a class="dropdown-item" href="team.html#defenders">Defenders</a>
+                        <a class="dropdown-item" href="team.html#midfielders">Midfielders</a>
+                        <a class="dropdown-item" href="team.html#forwards">Forwards</a>
+                        <a class="dropdown-item" href="team.html#coaches">Coaches</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -54,9 +54,14 @@
 
     <!---------------------------------------------------- Content -->
     
+    <div class="container-fluid">
+        <div class="row top-pic-trophies">
+        </div>
+    </div>
+    
     <div class="container-fluid about-container">
         <div class="container-fluid">
-            <h2 class="about1">About Bayern München</h2>
+            <h2 class="section-header">About Bayern München</h2>
             <p class="about-text">Fußball-Club Bayern München e.V., commonly known as FC Bayern München, FCB, Bayern Munich, or FC Bayern, is a German sports club based in Munich, Bavaria. It is best known for its professional football team, which plays in the Bundesliga,
                 the top tier of the German football league system, and is the most successful club in German football history, having won a record 29 national titles and 19 national cups.</p>
             <br>
@@ -64,47 +69,173 @@
                 European Cup title in old straight knockout tournament format, entitling them to wear a multiple-winner badge during Champions League matches.</p>
         </div>
     </div>
+
+<!---------------------------------------------------- Honours -->
+
+    <h2 class="section-header col-12">Honours</h2>
     
-    <div class="container-fluid titels">
+    <div class="honours-head col-12">
+        National Honours
+    </div>
+    
+    <div class="container-fluid container-honours">
         <div class="row">
-                <h2 class="section-header col-12">Titels</h2>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 left-container">
-                    <div class="sub-section-header">
-                    Domestic
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/dfl_pokale.png" alt="picture of German cup">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 right-container">
-                    <div class="cups-container">
-                        <div class="cups">29 German Champions</div>
-                        <div class="cups">19 German DFB Pokal</div>
-                        <div class="cups">7 DFB/DFL-Supercup</div>
-                        <div class="cups">6 DFL Ligapokal</div>
-                    </div>
+                <div class="row">
+                    <div class="col-12 number-cup">29x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">German Championship</div>
                 </div>
             </div>
-        
-            <div class="row">
-                <div class="col-12 col-md-6 left-container">
-                    <div class="sub-section-header">
-                    International
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/dfb_pokale.png" alt="picture of German cup">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 right-container">
-                    <div class="cups-container">
-                        <div class="cups">29 German Champions</div>
-                        <div class="cups">19 German DFB Pokal</div>
-                        <div class="cups">7 DFB/DFL-Supercup</div>
-                        <div class="cups">6 DFL Ligapokal</div>
-                    </div>
+                <div class="row">
+                    <div class="col-12 number-cup">19x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">DFB German Cup</div>
                 </div>
             </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/supercup.png" alt="picture of German cup">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 number-cup">8x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">German Supercup</div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/liga_pokal.png" alt="picture of German cup">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 number-cup">6x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">League Cup</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <hr class="block-divider-honours">
+
+    <div class="honours-head col-12">
+        International Honours
+    </div>
+
+    <div class="container-fluid container-honours">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/cl_pokale.png" alt="picture of German cup">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 number-cup">5x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">Champions League</div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/uefa_cup.png" alt="picture of German cup">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 number-cup">1x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">UEFA Cup</div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/ec_pokalsieger.png" alt="picture of German cup">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 number-cup">1x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">UEFA Cup Winners' Cup</div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/weltpokal.png" alt="picture of German cup">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 number-cup">2x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">Intercontinental Cup</div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/klubweltmeisterschaft.jpg" alt="picture of German cup">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 number-cup">1x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">FIFA Club World Cup</div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 honour-item">
+                <div class="row">
+                    <div class="col-12 pic-cup">
+                        <img src="assets/images/eu_supercup.png" alt="picture of German cup">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 number-cup">1x</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 name-cup">UEFA Supercup</div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!---------------------------------------------------- Footer -->
 
-    <footer class="container-fluid fixed-bottom">
+    <footer class="container-fluid">
         <div class="footer-details row">
             <div class="col-sm-12">
                 <h5 class="social">Follow FC Bayern!</h5>

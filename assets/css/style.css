@@ -35,7 +35,7 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-    min-height: 100px;
+    height: 100px;
     min-width: 300px;
     margin: 0;
 }
@@ -71,7 +71,7 @@ footer {
 }
 
 .footer-details {
-    padding: 20px;
+    padding-top: 15px;
 }
 
 /* ---------------------------------------------------- Home */
@@ -113,42 +113,16 @@ footer {
 
 /* ---------------------------------------------------- About */
 
+.top-pic-trophies {
+    height: 130px;
+    background-image: url('../images/trophies.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+}
+
 .about-container {
-    height: 850px;
-    background-color: rgba(0,0,0,1);
-/*    background-image: url('../images/grasscutter.jpg');
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-}
-
-.about1 {
-    font-family: "Antic Didone", sans-serif;
-    font-size:30px;
-    font-weight: 700;
-    text-align: center;
-    color: #ee0946;
-    padding-top: 100px;
-    padding-bottom: 60px;
-}
-
-.about-text {
-    font-family: "Antic Didone", sans-serif;
-    font-size:20px;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-}
-
-.titels {
-    /*background-color: rgba(0,0,0,0.4);*/
-    background-image: url('../images/grasscutter.jpg');
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 800px;
+    background-color: rgba(0,0,0,0.1);
+    padding-bottom: 40px;
 }
 
 .section-header {
@@ -157,47 +131,73 @@ footer {
     font-weight: 700;
     text-align: center;
     color: #ee0946;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
-.left-container {
-    line-height: 50px;
-    height: 50px;
-}
-
-.sub-section-header{
-    font-size:20px;
-    font-weight: 700;
-    text-align: center;
-    color: #ee0946;
-}
-
-.right-container {
+.about-text {
+    font-family: "Antic Didone", sans-serif;
     font-size:20px;
     font-weight: 500;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 20px;
 }
 
-.cups {
-    padding: 5px;
+.honours-head {
+    font-size: 20px;
+    font-weight: 700;
 }
 
+.container-honours {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.honour-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pic-cup {
+    text-align: center;
+}
+
+.number-cup {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ee0946;    
+}
+
+.name-cup {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: black;    
+}
+
+.block-divider-honours {
+    width: 40%;
+    height: 2px;
+    border: 0;
+    background-color: #ee0946;
+    margin-bottom: 80px;
+}
 
 /* ---------------------------------------------------- Team */
 
 .top-pic {
     width: 100%;
     margin-bottom: 20px;
+    height: auto;
+    padding: 0;
 }
 
 .btn--team {
-    font-weight: bold;
+    font-weight: 700;
     border-radius: 5px;
     margin-top: 2px;
-    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .selecter-btn {
@@ -267,7 +267,7 @@ footer {
 }
 
 .block-divider {
-    width: 100%;
+    width: 40%;
     height: 2px;
     border: 0;
     background-color: #ee0946;
@@ -285,6 +285,12 @@ footer {
     padding-top: 20px;
     padding-left: 30px;
     padding-bottom: 30px;
+}
+
+.btn--fixtures {
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 2px;
 }
 
 .next-match-container-mobile {
@@ -395,32 +401,35 @@ footer {
 }
 
 @media (min-width:554px) {
-    .about-container {
-        height: 850px;
-    }
     .box-mobile {
         display: none;
     }
     .table-mobile {
         display: none;
     }
+    .top-pic-trophies {
+        height: 250px;
+        background-image: url('../images/trophies.jpg');
+        background-attachment: fixed;
+        background-size: contain;
+    }    
+}
+
+@media (max-width:575px) {
+    .navbar .navbar-nav {
+            background-color: black;
+            padding-left: 31px;
+        }
 }
 
 @media (min-width:760px) {
-    .about-container {
-        height: 700px;
-    }
-    
     .about-text {
         padding: 0px 50px;
     }
 }
 
 @media (min-width:768px) {
-    .left-container {
-        line-height: 200px;
-        height: 200px;
-    }
+    
 }
 
 @media (min-width:991px) {
