@@ -76,7 +76,7 @@ footer {
 
 /* ---------------------------------------------------- Home */
 
-.intro1 {
+.intro-header {
     font-family: "Antic Didone", sans-serif;
     font-weight: 700;
     text-align: center;
@@ -85,29 +85,41 @@ footer {
     padding-bottom: 30px;
 }
 
-.intro2 {
+.intro-subheader {
     font-family: "Antic Didone", sans-serif;
     text-align: center;
     color: #ee0946;
     padding-bottom: 100px;
 }
 
-.intro3 {
+.intro-video {
     text-align: center;
     padding-top: 50px;
     height: 30vw;
 }
 
 .intro-container {
-    height: 100vh;
+    height: 120vh;
     min-height: 900px;
     background-image: url('../images/arena-outside.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
     position: relative;
+}
+
+.intro-btn {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.btn--home {
+    font-weight: 700;
+    border-radius: 5px;
 }
 
 
@@ -186,12 +198,23 @@ footer {
 
 /* ---------------------------------------------------- Team */
 
-.top-pic {
+.top-pic-team {
     width: 100%;
-    margin-bottom: 20px;
     height: auto;
+ /*   max-height: 200px;*/
+    margin-bottom: 20px;
     padding: 0;
 }
+
+/*.top-pic-team {
+    height: 300px;
+    background-image: url('../images/team.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+}*/
 
 .btn--team {
     font-weight: 700;
@@ -200,7 +223,8 @@ footer {
     margin-right: 4px;
 }
 
-.selecter-btn {
+.selector-btn {
+    padding-top: 20px;
     padding-left: 16px;
 }
 
@@ -266,7 +290,7 @@ footer {
     display: block;
 }
 
-.block-divider {
+.block-divider-team {
     width: 40%;
     height: 2px;
     border: 0;
@@ -280,6 +304,13 @@ footer {
 }
 
 /* ---------------------------------------------------- Fixtures */
+
+.top-pic-fixtures {
+    height: 130px;
+    background-image: url('../images/line.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+}
 
 .fixtures {
     padding-top: 20px;
@@ -333,6 +364,15 @@ footer {
     margin-top: 10px;
 }
 
+.block-divider-fixtures {
+    width: 40%;
+    height: 2px;
+    border: 0;
+    background-color: #ee0946;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
 .bundesliga-table {
     margin: 0;
     padding: 0 !important;
@@ -376,6 +416,13 @@ footer {
 
 /* ---------------------------------------------------- Table */
 
+.top-pic-table {
+    height: 130px;
+    background-image: url('../images/flagge.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+}
+
 .current-table {
     padding-top: 20px;
     padding-bottom: 30px;
@@ -407,19 +454,31 @@ footer {
     .table-mobile {
         display: none;
     }
-    .top-pic-trophies {
+    .top-pic-about {
         height: 250px;
         background-image: url('../images/trophies.jpg');
         background-attachment: fixed;
         background-size: contain;
-    }    
+    }
+    .top-pic-fixtures {
+        height: 250px;
+        background-image: url('../images/line.jpg');
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    .top-pic-table {
+        height: 250px;
+        background-image: url('../images/flagge.jpg');
+        background-attachment: fixed;
+        background-size: contain;
+    }
 }
 
 @media (max-width:575px) {
     .navbar .navbar-nav {
-            background-color: black;
-            padding-left: 31px;
-        }
+        background-color: black;
+        padding-left: 31px;
+    }
 }
 
 @media (min-width:760px) {
