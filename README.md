@@ -1,14 +1,43 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
+
+     _____    ____      ____        _   __     __  _____   ____      __   _
+    |  ___|  / ___|    |  _ \      / \  \ \   / / | ___⁄  |  __ \   |  \ | |
+    | |_    | |        | |_) |    /   \  \ \ / /  | |_    | |__) |  |   \| |
+    |  _|   | |        |  __ \   / /_\ \  \   /   | __|   |  __ \   | |\   |
+    | |     | |___     | |__) | /  ___  \  | |    | |___  | |  \ \  | | \  |
+    |_|      \____|    |_____/ /_/     \_\ |_|    |_____\ |_|   \_\ |_|  \_|
+
  ----------------------------------------------------------------- 
 
+# FC Bayern
 
-Hi there! Welcome to AWS Cloud9!
+Milestone Project 1 - User-Centric Frontend Development - Code Institute
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+This site will provide you with information about the German football club FC Bayern Munich, their trophy collection and their team, both players and coaches. Additionally, you can find their upcoming matches and a table of the German Bundesliga.
 
-Happy coding!
+## Demo
+
+## UX
+
+## Features
+
+### Existing Features
+### Features Left to Implement
+
+## Technologies Used
+
+1. HTML
+2. CSS
+3. Bootstrap (4.3.1)
+
+## Testing
+
+## Deploment
+
+## Credits
+
+### Content
+
+### Media
+
+### Acknowledgements
+
