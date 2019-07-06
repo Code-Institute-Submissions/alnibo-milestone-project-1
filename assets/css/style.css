@@ -172,7 +172,7 @@ footer {
 
 /* ---------------------------------------------------- About */
 
-.about-top-container {
+.top-container {
     position: relative;
     text-align: center;
 }
@@ -183,6 +183,9 @@ footer {
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -281,8 +284,7 @@ footer {
 }
 
 .player-pic {
-    width:240px;
-    height: 320px;
+    height: 250px;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -292,7 +294,7 @@ footer {
 
 .shirt-number {
     position: absolute;
-    top: 8px;
+    top: 15px;
     left: 70px;
     color: black;
     background-color: rgba(0,0,0,0.15);
@@ -355,8 +357,12 @@ footer {
 .top-pic-fixtures {
     height: 130px;
     background-image: url('../images/line.jpg');
-    background-attachment: fixed;
-    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .fixtures {
@@ -466,8 +472,12 @@ footer {
 .top-pic-table {
     height: 130px;
     background-image: url('../images/flagge.jpg');
-    background-attachment: fixed;
-    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .current-table {
@@ -493,11 +503,11 @@ footer {
 
 @media (max-width:553px) {
     .top-pic-team {
-    width: 100%;
-    height: auto;
-    max-height: 200px;
-    margin-bottom: 20px;
-    padding: 0;
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        margin-bottom: 20px;
+        padding: 0;
     }
     .box-desktop {
         display: none;
