@@ -189,7 +189,7 @@ footer {
     background-size: cover;
 }
 
-.about-header {
+.top-header {
     font-size: 25px;
     color: white;
     background-color: rgba(0,0,0,0.5);
@@ -495,7 +495,7 @@ footer {
 /* ---------------------------------------------------- Media Queries */
 
 @media (min-width:354px) {
-    .about-header {
+    .top-header {
         font-size: 30px;
         top: 65%;
     }
@@ -535,7 +535,7 @@ footer {
     .top-pic-about {
         height: 250px;
     }
-    .about-header {
+    .top-header {
         top: 82%;
     }
     .top-pic-team {
