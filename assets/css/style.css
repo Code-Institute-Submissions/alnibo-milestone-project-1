@@ -181,8 +181,7 @@ footer {
 .top-pic-about {
     height: 130px;
     background-image: url('../images/arena-inside.jpg');
-    background-attachment: fixed;
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
