@@ -12,7 +12,7 @@ body {
     margin-bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: black;
+    background-color: #d3d3d3;
     border: 0;
 }
 
@@ -33,8 +33,8 @@ body {
 
 footer {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #d3d3d3;
+    color: black;
     height: 100px;
     min-width: 300px;
     margin: 0;
@@ -89,17 +89,17 @@ footer {
     position: relative;
 }
 
-.faded-background {
-    background-color: rgba(0,0,0,0);
-}
+/*.faded-background {
+    background-color: rgba(0,0,0,0.3);
+}*/
 
 .intro-header {
     font-family: "Antic Didone", sans-serif;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-    color: white;
-    padding-top: 110px;
+    color: #ee0946;
+    padding-top: 100px;
     padding-bottom: 30px;
 }
 
@@ -107,7 +107,7 @@ footer {
     font-family: "Antic Didone", sans-serif;
     font-size: 30px;
     text-align: center;
-    color: white;
+    color: #ee0946;
     padding-bottom: 100px;
 }
 
@@ -156,7 +156,7 @@ footer {
 .sub-title-text{
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: #808080;
     vertical-align: middle;
 }
 
@@ -200,7 +200,7 @@ footer {
 }
 
 .about-container {
-    background-color: rgba(0,0,0,0.1);
+    background-color: #d3d3d3;
     padding-bottom: 20px;
 }
 
@@ -210,8 +210,8 @@ footer {
     font-weight: 700;
     text-align: center;
     color: #ee0946;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .about-text {
@@ -224,6 +224,7 @@ footer {
 }
 
 .honours-head {
+    color: #808080;
     font-size: 20px;
     font-weight: 700;
 }
@@ -253,7 +254,7 @@ footer {
     font-size: 15px;
     font-weight: 700;
     text-align: center;
-    color: black;    
+    color: #808080;    
 }
 
 .block-divider-honours {
@@ -283,13 +284,17 @@ footer {
     padding-bottom: 30px;
 }
 
+.field-position-header {
+    color: #808080;
+}
+
 .player-pic {
     height: 250px;
     overflow: hidden;
     position: relative;
     text-align: center;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .shirt-number {
@@ -522,7 +527,7 @@ footer {
 
 @media (min-width:554px) {
     .intro-header {
-        padding-top: 200px;
+        padding-top: 120px;
         font-size: 50px;
     }
     .intro-subheader {
