@@ -19,18 +19,20 @@ This site will provide you with information about the German football club FC Ba
 Check it out with this Github link [here](https://alnibo.github.io/milestone-project-1/index.html).
 
 ## UX
-The goal for this website was to provide information for anyone who is interested in and wants to find out more about the football club FC Bayern Munich. Besides a landing page, there are four separate pages providing different information about FC Bayern. The about page gives a description of the club and additionally states all titles that FC Bayern has collected over the years. The team site shows members of the whole team. They are categorised in goalkeepers, defenders, midfielders and forwards. Furthermore, the head coach and his assistance coaches are listed. The next page - fixtures - gives an overview of upcoming matches. The last page contains a table with the standings of all teams of the 2019/2020 German Bundesliga.
+The goal for this website was to provide information for anyone who is interested in and wants to find out more about the football club FC Bayern Munich. Besides a landing page (homepage), there are four separate pages providing different information about the club. The about page gives a short description of the club and additionally states all titles that FC Bayern has collected over the years. The team site shows members of the whole team. They are categorised in goalkeepers, defenders, midfielders and forwards, as well as the head coach and his assistance coaches. The next page - fixtures - gives an overview of upcoming matches. The last page contains a table with the standings of all teams of the 2019/2020 German Bundesliga.
 
-A modern look with light colors and a simple desgin was chosen in order to present the information in a clear and easy way.
+In order to present the infromation in a clear and easy way, a modern look with light colors and a simple desgin was chosen.
 
 As a first step [wireframes](https://github.com/alnibo/milestone-project-1/tree/master/wireframes) were designed to visualise and give an outline of the structures and layouts.
 
+The home page tries to grab the viewers attention with a YouTube clip and invites her/him to read more about FC Bayern with a central button underneath.
+
 ## Features
 
-1. With its responsive design using the Bootstrap Grid system, this website was build for all screen sizes - from mobile to desktop screens. 
-2. The navbar is fixed to the top and collapses when in mobile use.
-3. Footer with Font awesome icons for the social media links
-4. Pictures of team members with hover effect.
+1. Responsive design using the Bootstrap Grid system 
+2. Fixed navbar, which collapses when in mobile use
+3. Footer with Font awesome icons for social media links
+4. Pictures of team members with hover effect
 
 ### Features Left to Implement
 As the website now only provides a static table the next step would be to integrate a dynamic table that updates itself when new games have been played. On top of this, another good expansion would be the integration of standings in other leagues Bayern playes in. These include for example the Champions League and the German Cup.
@@ -43,11 +45,13 @@ As the website now only provides a static table the next step would be to integr
 
 ## Testing
 
-As part of the testing procedure this website was tested with https://validator.w3.org/. A few errors due to boostrap were displayed.
+As part of the testing procedure this website was tested with https://validator.w3.org/. A few errors and several warnings were displayed due to boostrap.
 
-All links to the social media site where manually tested and it was made sure that these links will open in a new tab using `target="_blank"`.
+All links to social media sites where manually tested. By using `target="_blank"` it was made sure that these links will open in a new tab.
 
-Ensuring its responsiveness this website was tested across different mobile devices. In a second step it was then tested across the most common internet browsers, Safari, Chrome, Internet Explorer, and Firefox), making sure it is compatible.
+Ensuring its responsiveness this website was tested across different mobile devices. In a second step it was then tested across the most common internet browsers (Safari, Chrome, Internet Explorer, and Firefox), making sure it is compatible. For an overview please see this excel file here.
+
+During the testing procedure it became clear that some media queries need to be created in order to maintain a good design acroos all screen sizes. 
 
 ## Deploment
 
@@ -58,9 +62,9 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-The text content of the about page was retrieved from [Wikipedia](https://en.wikipedia.org/wiki/FC_Bayern_Munich).
+All written content on the about page was retrieved from [Wikipedia](https://en.wikipedia.org/wiki/FC_Bayern_Munich).
 
-Information regarding the upcoming fixtures was taken from [here](https://fcbayern.com/en/fixtures/profis) and information concerning the bundesliga table from [here](https://fcbayern.com/en/standings/profis).
+Information regarding honours, upcoming fixtures and the bundesliga table was found on FC Bayern's [homepage](https://www.fcbayern.com).
 
 ### Media
 The team picture and the player's profile pictures where taken from [FC Bayern](https://fcbayern.com/en/teams/first-team). All other pictures where taken from the online image libraries [Unsplash](https://unsplash.com) and [Pexels](https://www.pexels.com).
