@@ -76,23 +76,6 @@ footer {
 
 /* ---------------------------------------------------- Home */
 
-.intro-container {
-    min-height: 100vh;
-/*    background-image: url('../images/arena-outside.jpg');*/
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;    
-    position: relative;
-}
-
-/*.faded-background {
-    background-color: rgba(0,0,0,0.3);
-}*/
-
 .intro-header {
     font-family: "Antic Didone", sans-serif;
     font-size: 40px;
