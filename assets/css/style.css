@@ -510,7 +510,7 @@ footer {
     .top-pic-team {
         width: 100%;
         height: auto;
-        max-height: 200px;
+        max-height: 250px;
         margin-bottom: 20px;
         padding: 0;
     }
@@ -568,7 +568,7 @@ footer {
 
 @media (max-width:575px) {
     .navbar .navbar-nav {
-        background-color: black;
+        background-color: #d3d3d3;
         padding-left: 31px;
     }
 }
