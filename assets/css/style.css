@@ -6,7 +6,7 @@ body {
     padding-top: 50px;
 }
 
-/* ---------------------------------------------------- Header */
+/* ************************************************** Header */
 
 .navbar {
     margin-bottom: 0;
@@ -29,7 +29,7 @@ body {
 }
 
 
-/* ---------------------------------------------------- Footer */
+/* ************************************************** Footer */
 
 footer {
     text-align: center;
@@ -74,7 +74,7 @@ footer {
     padding-top: 15px;
 }
 
-/* ---------------------------------------------------- Home */
+/* ************************************************** Home */
 
 .intro-header {
     font-family: "Antic Didone", sans-serif;
@@ -154,7 +154,7 @@ footer {
     border-radius: 5px;
 }
 
-/* ---------------------------------------------------- About */
+/* ************************************************** About */
 
 .top-container {
     position: relative;
@@ -177,7 +177,7 @@ footer {
     color: white;
     background-color: rgba(0,0,0,0.5);
     position: absolute;
-    top: 71.5%;
+    top: 76.8%;
     left: 0;
     padding: 0;
 }
@@ -248,7 +248,7 @@ footer {
     margin-bottom: 80px;
 }
 
-/* ---------------------------------------------------- Team */
+/* ************************************************** Team */
 
 .btn--team {
     font-weight: 700;
@@ -336,11 +336,11 @@ footer {
     margin-bottom: -20px;
 }
 
-.spaceholder {
+#coaches {
     padding-bottom: 60px;
 }
 
-/* ---------------------------------------------------- Fixtures */
+/* ************************************************** Fixtures */
 
 .top-pic-fixtures {
     height: 130px;
@@ -353,7 +353,7 @@ footer {
     background-size: cover;
 }
 
-.fixtures {
+.fixtures-button {
     padding-top: 20px;
     padding-left: 30px;
     padding-bottom: 30px;
@@ -391,7 +391,8 @@ footer {
     text-align: center;
 }
 
-.tournament {
+.next-match-info {
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -416,7 +417,7 @@ footer {
 
 .bundesliga-table {
     margin: 0;
-    padding: 0 !important;
+    padding: 0 0 60px 0;
 }
 
 .table-entry {
@@ -455,7 +456,17 @@ footer {
     margin-top: 15px;
 }
 
-/* ---------------------------------------------------- Table */
+/* ************************************************** Table */
+
+.top-header-table {
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 54%;
+    left: 0;
+    padding: 0;
+}
 
 .top-pic-table {
     height: 130px;
@@ -480,12 +491,33 @@ footer {
     margin-top: 30px;
 }
 
-/* ---------------------------------------------------- Media Queries */
+.none {
+    margin: 0;
+    padding: 0;
+}
+
+/* ************************************************** Media Queries */
+
+
+@media (min-width:342px) {
+    .top-header-table {
+        top: 77%;
+    }
+}
 
 @media (min-width:354px) {
     .top-header {
         font-size: 30px;
-        top: 65%;
+        top: 72%;
+    }
+    .top-header-table {
+        top: 44.5%;
+    }
+}
+
+@media (min-width:410px) {
+    .top-header-table {
+        top: 72%;
     }
 }
 
@@ -524,7 +556,7 @@ footer {
         height: 250px;
     }
     .top-header {
-        top: 82%;
+        top: 85.4%;
     }
     .top-pic-team {
         width: 100%;
@@ -543,6 +575,9 @@ footer {
     }
     .top-pic-table {
         height: 250px;
+    }
+    .top-header-table {
+        top: 85.4%;
     }
     .table-mobile {
         display: none;
