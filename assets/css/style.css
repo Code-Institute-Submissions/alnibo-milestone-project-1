@@ -28,6 +28,15 @@ body {
     border: 0;
 }
 
+.btn-translate {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-translate:hover {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* ************************************************** Footer */
 
@@ -184,6 +193,7 @@ footer {
 
 .about-container {
     background-color: #d3d3d3;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -203,7 +213,6 @@ footer {
     font-weight: 500;
     color: black;
     text-align: center;
-    padding-top: 20px;
 }
 
 .honours-head {
