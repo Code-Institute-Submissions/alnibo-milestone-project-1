@@ -12,7 +12,7 @@
 
 Stream One Project - User-Centric Frontend Development - Code Institute
 
-This site will provide you with information about the German football club FC Bayern Munich, their trophy collection and their team, both players and coaches. Additionally, you can find their upcoming matches and a table of the German Bundesliga.
+This site will provide you with information about the German football club FC Bayern Munich, their trophy collection and their team, both players and coaches. Additionally, you can find their upcoming matches and a table of the German Bundesliga. The website is available in both English and German.
 
 ## Demo
 
