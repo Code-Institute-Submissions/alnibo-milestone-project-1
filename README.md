@@ -55,7 +55,7 @@ All links to social media sites where manually tested. By using `target="_blank"
 
 Ensuring its responsiveness this website was tested across different mobile devices. In a second step it was then tested across the most common internet browsers (Safari, Chrome, Internet Explorer, and Firefox), making sure it is compatible. For an overview, please see this excel file [here](https://github.com/alnibo/milestone-project-1/blob/master/Testing-resp-comp.pdf).
 
-During the testing procedure it became clear that some media queries need to be created in order to maintain a good design acroos all screen sizes.
+During the testing procedure it became clear that some media queries need to be created in order to maintain a good design across all screen sizes.
 
 ## Deployment
 
@@ -73,7 +73,7 @@ Information regarding honours, upcoming fixtures and the bundesliga table was fo
 ### Media
 The team picture and the player's profile pictures where taken from [FC Bayern](https://fcbayern.com/en/teams/first-team). All other pictures where taken from the online image libraries [Unsplash](https://unsplash.com) and [Pexels](https://www.pexels.com).
 
-The background patter of the home page is retrieved from [here](www.subtlepatterns.com).
+The background pattern of the home page is retrieved from [here](https://www.toptal.com/designers/subtlepatterns/).
 
 ### Acknowledgements
 
