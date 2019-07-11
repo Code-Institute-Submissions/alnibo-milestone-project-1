@@ -70,9 +70,6 @@ footer {
     color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -179,9 +176,6 @@ footer {
     background-image: url('../images/arena-inside.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
     background-size: cover;
 }
 
@@ -365,9 +359,6 @@ footer {
     background-image: url('../images/line.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
     background-size: cover;
 }
 
@@ -491,9 +482,6 @@ footer {
     background-image: url('../images/flagge.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
     background-size: cover;
 }
 

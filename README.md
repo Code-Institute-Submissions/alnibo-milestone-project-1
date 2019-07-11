@@ -55,7 +55,7 @@ All links to social media sites where manually tested. By using `target="_blank"
 
 Ensuring its responsiveness this website was tested across different mobile devices. In a second step it was then tested across the most common internet browsers (Safari, Chrome, Internet Explorer, and Firefox), making sure it is compatible. For an overview, please see this excel file [here](https://github.com/alnibo/milestone-project-1/blob/master/Testing-resp-comp.pdf).
 
-During the testing procedure it became clear that some media queries need to be created in order to maintain a good design acroos all screen sizes. 
+During the testing procedure it became clear that some media queries need to be created in order to maintain a good design acroos all screen sizes.
 
 ## Deployment
 
