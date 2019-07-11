@@ -73,6 +73,8 @@ Information regarding honours, upcoming fixtures and the bundesliga table was fo
 ### Media
 The team picture and the player's profile pictures where taken from [FC Bayern](https://fcbayern.com/en/teams/first-team). All other pictures where taken from the online image libraries [Unsplash](https://unsplash.com) and [Pexels](https://www.pexels.com).
 
+The background patter of the home page is retrieved from [here](www.subtlepatterns.com).
+
 ### Acknowledgements
 
 The navbar was retrieved from the Bootstrap [documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/) and then altered and customized for this site.

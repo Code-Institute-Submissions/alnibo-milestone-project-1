@@ -85,6 +85,10 @@ footer {
 
 /* ************************************************** Home */
 
+.back-pic {
+    background-image: url('../images/background.png')
+}
+
 .intro-header {
     font-family: "Antic Didone", sans-serif;
     font-size: 40px;
@@ -175,9 +179,9 @@ footer {
     background-image: url('../images/arena-inside.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     background-size: cover;
 }
 
@@ -361,9 +365,9 @@ footer {
     background-image: url('../images/line.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     background-size: cover;
 }
 
@@ -487,9 +491,9 @@ footer {
     background-image: url('../images/flagge.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
     background-size: cover;
 }
 
